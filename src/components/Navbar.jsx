@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import {Link} from "react-router-dom"
 const Navbar = () => {
   const [isEnabled, setIsEnabled] = useState(false);
   // setIsEnabled(true);
@@ -12,15 +13,15 @@ const Navbar = () => {
           <img src="/Drone_logo.png" alt="" />
         </div>
         <div className="nav-menu">
-          <a href="/" className="nav-links">
+          <Link to={"/"} className="nav-links">
             HOME
-          </a>
-          <a href="/about-us" className="nav-links">
+          </Link>
+          <Link to={"/about-us"} className="nav-links">
             ABOUT US
-          </a>
-          <a href="/contact-us" className="nav-links">
+          </Link>
+          <Link to={"/contact-us"} className="nav-links">
             CONTACT US
-          </a>
+          </Link>
         </div>
         <div className="hamburger-menu">
           <GiHamburgerMenu
@@ -30,15 +31,15 @@ const Navbar = () => {
         </div>
       </div>
       <div className={`hamburger-slidedown ${isEnabled ? "" : "hide"}`}>
-        <a href="/" className="nav-links">
+        <Link to={"/"} className="nav-links">
           HOME
-        </a>
-        <a href="/about-us" className="nav-links">
+        </Link>
+        <Link to={"/about-us"} className="nav-links">
           ABOUT US
-        </a>
-        <a href="/contact-us" className="nav-links">
+        </Link>
+        <Link to={"/contact-us"} className="nav-links">
           CONTACT US
-        </a>
+        </Link>
       </div>
     </>
   );

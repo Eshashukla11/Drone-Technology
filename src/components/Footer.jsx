@@ -26,13 +26,16 @@ function Footer() {
           </a>
         </div> */}
         <div className="footer-section-wrapper contact-us">
-          <a href="/about-us" className="none bold">
+          {/* <a href="/about-us" className="none bold">
             ABOUT US
-          </a>
-          {/* <Link to={"about-us"} className="none bold">
+          </a> */}
+          <Link to={"about-us"} className="none bold">
             ABOUT US
-          </Link> */}
-          <a href="/contact-us" className="none bold">CONTACT US</a>
+          </Link>
+          {/* <a href="/contact-us" className="none bold">CONTACT US</a> */}
+          <Link to={"contact-us"} className="none bold">
+            CONTACT US
+          </Link>
           <div className="footer-section-services">
             <FaLocationDot className="icon" />
             <p className="footer-section-item">

@@ -167,6 +167,8 @@ html{
   background-color: rgb(225, 41, 41);
   color: white;
   letter-spacing: 1.5px;
+  text-decoration-line:none;
+  text-align: center;
 }
 
 .section-2-container-2 {
