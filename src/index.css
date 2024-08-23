@@ -706,8 +706,9 @@ border-radius: 8px;
 .section-2-contact-us{
   background-color: white;
   width:100%;
-  height:80vh;
+  min-height:90vh;
   border-top:1px solid gray;
+  padding-block:2rem;
 }
 /* form */
 .contact-form-wrapper {
@@ -725,7 +726,7 @@ border-radius: 8px;
   flex-direction: column;
   padding: 2rem;
   gap: 1.5rem;
-  width: 25%;
+  width: 40%;
   border-radius: 0.5rem;
   position: relative;
 }
@@ -988,6 +989,25 @@ border-radius: 8px;
   .section-1-contact-us-card{
     width:200px;
     height:200px;
+  }
+   /* form */
+  .contact-form {
+    width: 70%;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+  .contact-form-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-underline-offset: 0.2rem;
+  }
+  .contact-form-input {
+    padding-block: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .message-sent {
+    font-size: 0.8rem;
+    font-weight: 600;
   }
 }
 
