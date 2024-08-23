@@ -7,20 +7,23 @@ import AboutUs from './components/AboutUs.jsx';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx'
 import ContactUs from './components/ContactUs.jsx';
+import CareerPage from './components/CareerPage.jsx';
 
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-   <BrowserRouter>   
- {/* Wrap your app with BrowserRouter */}
- <Navbar/>
+    <BrowserRouter>
+      {" "}
+       {/* Wrap your app with BrowserRouter */}
+      <Navbar />
       <Routes>
-        <Route path="/" element={<App />} /> 
+        <Route path="/" element={<App />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/contact-us" element={<ContactUs />} /> 
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/career-page" element={<CareerPage />} />
         {/* ... other routes */}
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   </StrictMode>
 );

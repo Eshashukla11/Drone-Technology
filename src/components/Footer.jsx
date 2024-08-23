@@ -13,7 +13,7 @@ function Footer() {
       <div className="footer-section-container">
         <div className="footer-section-wrapper ">
           <div className="footer-section-img-wrap">
-            <img src="/Drone_logo.png" alt="" />
+            <img src="/drone-technology.png" alt="" />
           </div>
           <p className="footer-section-item fixed">
             Welcome to The Drone Technology, a company that provides various

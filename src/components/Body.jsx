@@ -285,7 +285,7 @@ function Body() {
         <div className="section-6-container">
           <div className="section-6-card-1">
             <FaSitemap className="card-icon" />
-            <p className="section-6-card-heading">DIS Mapping</p>
+            <p className="section-6-card-heading">GIS Mapping</p>
           </div>
           <div className="section-6-card-1">
             <FaRoad className="card-icon" />

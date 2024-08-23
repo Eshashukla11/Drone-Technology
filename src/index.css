@@ -17,8 +17,8 @@ html{
   justify-content: space-between;
 }
 .img-wrap {
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
 }
 .img-wrap img {
   width: 100%;
@@ -491,6 +491,8 @@ text-align: center;
 .footer-section-img-wrap {
   width: 100px;
   height: 100px;
+  background-color: white;
+  border-radius:10px;
 }
 .footer-section-img-wrap img {
   width: 100%;

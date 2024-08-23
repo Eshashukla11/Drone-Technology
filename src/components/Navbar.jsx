@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
       <div className="navbar-wrap">
         <div className="img-wrap">
-          <img src="/Drone_logo.png" alt="" />
+          <img src="/drone-technology.png" alt="" />
         </div>
         <div className="nav-menu">
           <Link to={"/"} className="nav-links">
@@ -21,6 +21,9 @@ const Navbar = () => {
           </Link>
           <Link to={"/contact-us"} className="nav-links">
             CONTACT US
+          </Link>
+          <Link to={"/career-page"} className="nav-links">
+            CAREER PAGE
           </Link>
         </div>
         <div className="hamburger-menu">
@@ -39,6 +42,9 @@ const Navbar = () => {
         </Link>
         <Link to={"/contact-us"} className="nav-links">
           CONTACT US
+        </Link>
+        <Link to={"/career-page"} className="nav-links">
+          CAREER PAGE
         </Link>
       </div>
     </>
